@@ -1,15 +1,140 @@
-.about{
-    position: relative;
-    background-image: url(../IMAGE.png);
-    width: 686px;
-    height: 720px;
+.container{
+    width: 1311px;
     margin-left: auto;
-    background-repeat: no-repeat;
-
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.about1{
-background-color:#e91515;    width: 686px;
-    height: 720px;
-    background-repeat: no-repeat;
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+
+
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section1{
+    position: absolute;
+    background: linear-gradient(105.18deg, #1E3C72 -2.04%, #2A5298 107.42%);
+    border-radius: 0px 0px 300px 0px;
+    width: 1920px;
+    height: 1000px;
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    display: block;
+    align-items: center;
+    color: #1E3C72;
+    opacity: 0.8;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    padding-left: 128px;
+    padding-right: 233px;
+    
+}
+.page-header-container {
+    display: flex;    align-items: center;
+
+  }
+
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .menu-button{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 160px;
+  }
+
+  .menu-link{
+    font-family: 'FontAwesome';
+font-size: 16px;
+line-height: 2.06;
+display: flex;
+align-items: center;
+text-align: center;
+color: #1E3C72;
+align-items: center;
+
+  }
+
+  .menu-item:not(:last-child){
+    margin-right: 40px;
+  }
+
+  .modal-btn{
+border: 1.5px solid #1E3C72;
+border-radius: 50px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.16px;
+
+color: #1E3C72;
+padding: 13px 31px;
+  }
