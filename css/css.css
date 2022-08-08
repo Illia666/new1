@@ -1,0 +1,15 @@
+.about{
+    position: relative;
+    background-image: url(../IMAGE.png);
+    width: 686px;
+    height: 720px;
+    margin-left: auto;
+    background-repeat: no-repeat;
+
+}
+
+.about1{
+background-color:#e91515;    width: 686px;
+    height: 720px;
+    background-repeat: no-repeat;
+}
