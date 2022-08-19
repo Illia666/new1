@@ -69,3 +69,14 @@ button {
 }
 
 /* ===================================header========================== */
+
+.page-nav{
+  display: flex;
+}
+
+.page-header-container{
+  display: flex;
+}
+.menu{
+  display: flex;
+}
