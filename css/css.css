@@ -80,3 +80,9 @@ button {
 .menu{
   display: flex;
 }
+.page-header-container{
+  background-repeat: no-repeat;
+  background-image: url(../img/ice.png);
+  background-position: center;
+  background-size: cover;
+}
